@@ -31,11 +31,16 @@ class Form extends Component {
         })
     }
 
+    handleSubmit = (event) => {
+        alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+        event.preventDefault() // Stop the page from refreshing after the submit
+    }
+
 
     
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <div>
                     <label>Username</label>
                     <input type="text" value={this.state.username} onChange={this.handleUsernameChange}/>
@@ -52,6 +57,7 @@ class Form extends Component {
                         <option value="vue">Vue</option>
                     </select>
                 </div>
+                <button type="submit">Submit</button>
             </form>
         )
     }

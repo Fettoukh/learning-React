@@ -16,6 +16,7 @@ import NameList from './components/NameList'
 import Stylesheet from './components/Stylesheet'
 import InlineStyling from './components/InlineStyling'
 import Form from './components/Form'
+import LifeCycle from './components/LifeCycle'
 //import {Greet} from './components/Greet'
 import './appStyles.css'
 import styles from './appStyles.module.css'
@@ -96,6 +97,10 @@ function App() {
        ____________________________________________________________
 
       <Form></Form>
+
+      ____________________________________________________________
+
+      <LifeCycle></LifeCycle>
 
       ____________________________________________________________
     </div>
