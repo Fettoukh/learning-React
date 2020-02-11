@@ -13,13 +13,33 @@ import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import ConditionRendering from './components/ConditionalRendering'
 import NameList from './components/NameList'
+import Stylesheet from './components/Stylesheet'
+import InlineStyling from './components/InlineStyling'
+import Form from './components/Form'
 //import {Greet} from './components/Greet'
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 
 function App() {
   return ( 
     <div className="App">
 
+    ____________________________________________________________
+
+      <h1 className ='error'>Error</h1>
+      <h1 className = {styles.success} >Success</h1>
+
+      ____________________________________________________________
+
+      <InlineStyling></InlineStyling>
+
+      ____________________________________________________________
+
+       <Stylesheet primary={true}></Stylesheet>
+
+       ____________________________________________________________
+       
        <Greet name ="Harmless">
        <button>Log In</button>
        </Greet>
@@ -75,6 +95,9 @@ function App() {
 
        ____________________________________________________________
 
+      <Form></Form>
+
+      ____________________________________________________________
     </div>
   );
 }
