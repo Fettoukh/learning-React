@@ -17,6 +17,9 @@ import Stylesheet from './components/Stylesheet'
 import InlineStyling from './components/InlineStyling'
 import Form from './components/Form'
 import LifeCycle from './components/LifeCycle'
+import FragmentDemo from './components/FragmentDemo'
+import FragementTable from './components/FragementTable'
+ 
 //import {Greet} from './components/Greet'
 import './appStyles.css'
 import styles from './appStyles.module.css'
@@ -102,6 +105,10 @@ function App() {
 
       <LifeCycle></LifeCycle>
 
+      ____________________________________________________________
+
+      <FragmentDemo></FragmentDemo>
+      <FragementTable></FragementTable>
       ____________________________________________________________
     </div>
   );
