@@ -12,6 +12,7 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import ConditionRendering from './components/ConditionalRendering'
+import NameList from './components/NameList'
 //import {Greet} from './components/Greet'
 
 
@@ -67,6 +68,10 @@ function App() {
        ____________________________________________________________
 
        <ConditionRendering></ConditionRendering>
+
+       ____________________________________________________________
+
+       <NameList></NameList>
 
        ____________________________________________________________
 
