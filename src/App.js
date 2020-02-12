@@ -21,6 +21,7 @@ import FragmentDemo from './components/FragmentDemo'
 import FragementTable from './components/FragementTable'
 import ParentComp from './components/ParentComp'
 import RefsDemo from './components/RefsDemo'
+import FocusInput from './components/FocusInput'
 
 //import {Greet} from './components/Greet'
 import './appStyles.css'
@@ -116,9 +117,13 @@ function App() {
       ____________________________________________________________
 
       <RefsDemo></RefsDemo>
+       ____________________________________________________________
+       
+        <FocusInput></FocusInput>
 
        ____________________________________________________________*/}
 
+      
     </div>
   );
 }
