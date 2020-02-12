@@ -19,7 +19,9 @@ import Form from './components/Form'
 import LifeCycle from './components/LifeCycle'
 import FragmentDemo from './components/FragmentDemo'
 import FragementTable from './components/FragementTable'
- 
+import ParentComp from './components/ParentComp'
+import RefsDemo from './components/RefsDemo'
+
 //import {Greet} from './components/Greet'
 import './appStyles.css'
 import styles from './appStyles.module.css'
@@ -29,7 +31,7 @@ function App() {
   return ( 
     <div className="App">
 
-    ____________________________________________________________
+    {/*____________________________________________________________
 
       <h1 className ='error'>Error</h1>
       <h1 className = {styles.success} >Success</h1>
@@ -42,20 +44,19 @@ function App() {
 
        <Stylesheet primary={true}></Stylesheet>
 
-       ____________________________________________________________
+    ____________________________________________________________*/}
        
-       <Greet name ="Harmless">
-       <button>Log In</button>
+       <Greet name ="Amine">
        </Greet>
 
-       <Greet name>
+       <Greet>
          <p>This is a children props</p>
        </Greet>
 
-       ____________________________________________________________
+       {/*____________________________________________________________
 
        <Welcome name="Amine"></Welcome>
-       <Welcome name="Harmless"></Welcome>
+       <Welcome name="Fettoukh"></Welcome>
 
        ____________________________________________________________
 
@@ -110,6 +111,14 @@ function App() {
       <FragmentDemo></FragmentDemo>
       <FragementTable></FragementTable>
       ____________________________________________________________
+
+      <ParentComp></ParentComp>
+      ____________________________________________________________
+
+      <RefsDemo></RefsDemo>
+
+       ____________________________________________________________*/}
+
     </div>
   );
 }

@@ -14,7 +14,7 @@ class Counter extends Component {
             count : this.state.count + 1
             },
             () => {
-                console.log('Callback value ', this.state.count) // Solves the problem and execute the methode after setState
+            console.log('Callback value ', this.state.count) // Solves the problem and execute the methode after setState
                 }
          )
         console.log(this.state.count) //  Executed before the setState
