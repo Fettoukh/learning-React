@@ -91,8 +91,6 @@ function App() {
       <RefsDemo></RefsDemo>
       ____________________________________________________________
       <FocusInput></FocusInput>
-      ____________________________________________________________
-      <PortalDemo></PortalDemo>
       {/* ____________________________________________________________
       <ErrorBoundary>
       <Hero heroName ='Batman'></Hero>
@@ -129,6 +127,8 @@ function App() {
       <UserProvider value='Fettoukh'>
         <ComponentA></ComponentA>
       </UserProvider>
+      ____________________________________________________________
+      <PortalDemo></PortalDemo>
     </div>
   );
 }

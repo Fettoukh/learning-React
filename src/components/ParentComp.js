@@ -17,7 +17,7 @@ class ParentComp extends Component {
       this.setState({
         name: "Fettoukh"
       });
-    }, 2000);
+    }, 4000);
   }
 
   render() {
@@ -25,8 +25,8 @@ class ParentComp extends Component {
     return (
       <div>
         Parent Component
-        {/*<RegularComp name={this.state.name}></RegularComp>
-        <PureComp name={this.state.name}></PureComp>*/}
+        <RegularComp name={this.state.name}></RegularComp>
+        <PureComp name={this.state.name}></PureComp>
         <MemoComponent name={this.state.name}></MemoComponent>
       </div>
     );

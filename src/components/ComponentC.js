@@ -6,8 +6,8 @@ export class ComponentC extends Component {
         return (
             <UserConsumer>
                 {
-                   (username) => {
-                        return <div>Hello {username}</div>
+                   (value) => {
+                        return <div>Hello {value} </div>
                     }
                 }
             </UserConsumer>

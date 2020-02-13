@@ -1,7 +1,7 @@
 import React from 'react'
 
 function MemoComponent({name}) { // Distructuring props
-    console.log("Memo Rendering")
+    console.log("****************Memo Render****************")
     return (
         <div>
             {name}
