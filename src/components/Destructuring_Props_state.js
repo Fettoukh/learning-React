@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 
 //Methode 1 => function : 
 
-/*const Destructuring_props_state = ({name , lastname}) => { 
+const Destructuring_props_state = ({name , lastname}) => { 
     return (
         <div>
             <h1>Hello {name} {lastname}</h1>
         </div>
     
     )
-}*/
+}
 
 //Methode 2 => function :
 
@@ -24,7 +24,7 @@ import React, { Component } from 'react'
 }*/
 
 //Methode => Class
-class Destructuring_props_state extends Component{
+/*class Destructuring_props_state extends Component{
     render()
     {
         const {name , lastname} = this.props
@@ -35,7 +35,7 @@ class Destructuring_props_state extends Component{
             </h1>
         )
     }
-}
+}*/
 
 
 

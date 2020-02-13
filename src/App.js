@@ -22,6 +22,11 @@ import FragementTable from './components/FragementTable'
 import ParentComp from './components/ParentComp'
 import RefsDemo from './components/RefsDemo'
 import FocusInput from './components/FocusInput'
+import PortalDemo from './components/PortalDemo'
+import Hero from './components/Hero'
+import ErrorBoundary from './components/ErrorBoundary'
+import ClickCounter from './components/ClickCounter'
+import HoverCounter from './components/HoverCounter'
 
 //import {Greet} from './components/Greet'
 import './appStyles.css'
@@ -32,20 +37,17 @@ function App() {
   return ( 
     <div className="App">
 
-    {/*____________________________________________________________
+    ____________________________________________________________
 
       <h1 className ='error'>Error</h1>
       <h1 className = {styles.success} >Success</h1>
-
       ____________________________________________________________
 
       <InlineStyling></InlineStyling>
-
       ____________________________________________________________
 
        <Stylesheet primary={true}></Stylesheet>
-
-    ____________________________________________________________*/}
+    ____________________________________________________________
        
        <Greet name ="Amine">
        </Greet>
@@ -54,78 +56,82 @@ function App() {
          <p>This is a children props</p>
        </Greet>
 
-       {/*____________________________________________________________
+       ____________________________________________________________
 
        <Welcome name="Amine"></Welcome>
        <Welcome name="Fettoukh"></Welcome>
-
        ____________________________________________________________
-
-       <Hello></Hello>
-
+    
+      <Hello></Hello>
        ____________________________________________________________
-
+       
        <Message></Message>
-
        ____________________________________________________________
-
+       
        <Counter></Counter>
-
        ____________________________________________________________
-
+       
        <Destructuring_props_state name="Amine" lastname="Fettoukh"></Destructuring_props_state>
-
        ____________________________________________________________
-
+       
        <FunctionClick></FunctionClick>
-
        ____________________________________________________________
-
+      
        <ClassClick></ClassClick>
-
        ____________________________________________________________
-
+      
        <EventBind></EventBind>
-
        ____________________________________________________________
-
+       
        <ParentComponent></ParentComponent>
-
        ____________________________________________________________
-
+       
        <ConditionRendering></ConditionRendering>
-
        ____________________________________________________________
-
+       
        <NameList></NameList>
-
        ____________________________________________________________
-
-      <Form></Form>
-
+       
+       <Form></Form>
       ____________________________________________________________
-
+      
       <LifeCycle></LifeCycle>
-
       ____________________________________________________________
-
+      
       <FragmentDemo></FragmentDemo>
       <FragementTable></FragementTable>
       ____________________________________________________________
-
+      
       <ParentComp></ParentComp>
       ____________________________________________________________
-
+      
       <RefsDemo></RefsDemo>
        ____________________________________________________________
        
-        <FocusInput></FocusInput>
+      <FocusInput></FocusInput>
+       ____________________________________________________________
 
-       ____________________________________________________________*/}
+      <PortalDemo></PortalDemo>
 
-      
+      ____________________________________________________________
+      {/* <ErrorBoundary>
+      <Hero heroName ='Batman'></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroName ='Superman'></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroName ='Joker'></Hero>
+      </ErrorBoundary>  */}
+
+      ____________________________________________________________
+
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
+      ____________________________________________________________
     </div>
   );
 }
 
 export default App;
+

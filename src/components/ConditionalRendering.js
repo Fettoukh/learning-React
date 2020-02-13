@@ -6,7 +6,7 @@ class ConditionalRendering extends Component {
         super(props)
     
         this.state = {
-             isLoggedIn : true
+             isLoggedIn : false
         }
     }
     

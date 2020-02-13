@@ -20,20 +20,20 @@ class LifeCycleChild extends Component {
         console.log('LifeCycleChild ComponentDidMount')
     }
 
-    shouldComponentUpdate() {
-        console.log('lifeCycleChild shouldComponentUpdate')
-        return true
-    }
+    // shouldComponentUpdate() {
+    //     console.log('lifeCycleChild shouldComponentUpdate')
+    //     return true
+    // }
 
-    getSnapshotBeforeUpdate(prevProps , prevState)
-    {
-       console.log('LifeCycleChild getSnapShotBeforeUpdate') 
-       return null ;   
-    }
+    // getSnapshotBeforeUpdate(prevProps , prevState)
+    // {
+    //    console.log('LifeCycleChild getSnapShotBeforeUpdate') 
+    //    return null ;   
+    // }
 
-    componentDidUpdate() {
-        console.log("lifeCycleChild ComponentDidUpdate")
-    }
+    // componentDidUpdate() {
+    //     console.log("lifeCycleChild ComponentDidUpdate")
+    // }
 
     render() {
         console.log('LifeCycleChild Render')

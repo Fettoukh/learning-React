@@ -21,18 +21,18 @@ class LifeCycle extends Component {
         console.log('LifeCycle ComponentDidMount')
     }
 
-    shouldComponentUpdate() {
+    /*shouldComponentUpdate() {
         console.log('lifeCycle shouldComponentUpdate')
         return true
-    }
+    }*/
 
-    getSnapshotBeforeUpdate(prevProps , prevState)
+    /*getSnapshotBeforeUpdate(prevProps , prevState)
     {
        console.log('LifeCycle getSnapShotBeforeUpdate') 
        return null ;
-    }
+    }*/
 
-    componentDidUpdate() {
+    /*componentDidUpdate() {
         console.log("lifeCycle ComponentDidUpdate")
     }
 
@@ -40,7 +40,7 @@ class LifeCycle extends Component {
         this.setState({
             name : 'Codevolution'
         })
-    }
+    }*/
 
     render() {
         console.log('LifeCycle Render')
